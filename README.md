@@ -6,12 +6,13 @@ This repository contains models to predict outcome after stroke due to middle ce
 
 [Prediction of Stroke Outcome in Mice Based on Non-Invasive MRI and Behavioral Testing](https://doi.org/10.1101/2022.05.13.491869)
 
+The full dataset can be found on [Zenodo](https://doi.org/10.5281/zenodo.6534690)
+
 Each model consists of 50 independently trained random forest ensembles. All models were trained using Matlab 2021a. A simple prediction function which returns predictions by single models by default is present. The median of outcomes predicted by individual models can also be calculated.
 
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
-Clone the repository with git
+Clone this repository with git
 
 In Matlab open “Mousemcaooutcomepredictor.prj” in the project root directory to add project paths to current Matlab path
 
